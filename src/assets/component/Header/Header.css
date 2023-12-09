@@ -34,10 +34,28 @@ header {
   background: var(--color-primary);
 }
 
+.scroll__down {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
 /* =========== MEDIA QUERIS (SMALL DEVICES)========== */
 
 @media  screen and (max-width: 600px) {
   .container.header__container {
     width: var(--container-width-sm);
+  }
+
+  .scroll__down {
+    position: absolute;
+    right: 0.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
   }
 }
