@@ -18,7 +18,7 @@ const Header = () => {
   const setNextDate180 = moment().add(180, "days").calendar();
 
   return (
-    <section className="top">
+    <header className="top">
       <h5>Cabin Maintenance</h5>
       <h2>{displayDate}</h2>
 
@@ -46,7 +46,7 @@ const Header = () => {
           <h4>{setNextDate180}</h4>
         </SwiperSlide>
       </Swiper>
-    </section>
+    </header>
   );
 };
 
