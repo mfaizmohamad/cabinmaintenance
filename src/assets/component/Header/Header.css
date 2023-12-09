@@ -1,0 +1,39 @@
+.top {
+  margin-top: 1rem;
+}
+
+.container.header__container {
+  width: 20%;
+  padding-bottom: 2rem;
+}
+
+
+.moment {
+  background: var(--color-bg-variant);
+  text-align: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+.header__container > div h5 {
+  text-align: center;
+  margin-bottom: 0.8rem;
+  color: var(--color-primary);
+}
+
+.header__container > div h4 {
+  margin-top: -1rem;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
+}
+
+/* =========== MEDIA QUERIS (SMALL DEVICES)========== */
+
+@media  screen and (max-width: 600px) {
+  .container.header__container {
+    width: var(--container-width-sm);
+  }
+}
