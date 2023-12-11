@@ -2,6 +2,7 @@ import { useState } from "react";
 import React from "react";
 import moment from "moment/moment";
 import "./Header.css";
+import CTA from "./CTA";
 
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -48,6 +49,7 @@ const Header = () => {
       </Swiper>
 
       <a href="#mel" className='scroll__down'>Scroll Down</a>
+      <CTA/>
     </header>
   );
 };

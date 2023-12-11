@@ -11,6 +11,14 @@ header {
   padding-bottom: 2rem;
 }
 
+/* ========== CTA ============ */
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
 
 .moment {
   background: var(--color-bg-variant);
