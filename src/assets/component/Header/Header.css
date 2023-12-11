@@ -92,7 +92,7 @@ header {
 
 /* =========== MEDIA QUERIS (iphone 14 pro max)========== */
 
-@media  screen and (max-width: 430px) {
+/* @media  screen and (max-width: 430px) {
   .container.header__container {
     width: var(--container-width-sm);
   }
@@ -111,11 +111,11 @@ header {
     height: 25rem;
     margin-top: 13rem;
 }
-}
+} */
 
 /* =========== MEDIA QUERIS (iphone 12 pro)========== */
 
-@media  screen and (max-width: 390px) {
+/* @media  screen and (max-width: 390px) {
   .container.header__container {
     width: var(--container-width-sm);
   }
@@ -134,16 +134,16 @@ header {
     height: 25rem;
     margin-top: 7.5rem;
 }
-}
+} */
 
 
 
 /* =========== MEDIA QUERIS (12)========== */
 
-@media  screen and (max-width: 375px) {
+/* @media  screen and (max-width: 375px) {
   .image__cat {
     width: 22rem;
     height: 19rem;
     margin-top: 3rem;
 }
-}
+} */
