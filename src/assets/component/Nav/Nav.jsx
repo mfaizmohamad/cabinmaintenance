@@ -19,7 +19,7 @@ const Nav = () => {
         onClick={() => setActiveNav("#mel")}
         className={activeNav === "#mel" ? "active" : ""}
       >
-        <BiBook />
+        <h5>MEL</h5>
       </a>
     </nav>
   );

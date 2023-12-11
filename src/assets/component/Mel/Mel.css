@@ -9,6 +9,13 @@
   justify-items: center;
 }
 
+.search {
+  width: 40%;
+  border-radius: 2rem;
+  height: 4vh;
+  padding-left: 2rem;
+}
+
 .mel {
   background: var(--color-bg-variant);
   border-radius: 0 0 2rem 2rem;
@@ -37,14 +44,14 @@
   text-align: center;
 }
 
-.mel__list {
-  padding: 2rem;
-}
 
-.mel__list li {
+.mel__list{
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  gap: 2rem;
   margin-bottom: 0.8rem;
+  text-align: left;
+  padding: 2rem;
 }
 
 .mel__list-icon {
@@ -52,9 +59,12 @@
   margin-top: 2px;
 }
 
-.mel__list p {
-  font-size: 0.9rem;
+table {
+  font-size: 0.7rem;
 }
+
+
+
 
 /* =========== MEDIA QUERIS (SMALL DEVICES)========== */
 
@@ -62,6 +72,10 @@
   .mel {
     width: var(--container-width-sm);
     padding: 0 auto 0;
+  }
+
+  table {
+    font-size: 0.4rem;
   }
 }
 

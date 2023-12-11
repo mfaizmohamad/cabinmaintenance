@@ -33,3 +33,7 @@ nav a.active {
   box-shadow: inset 20px 20px 60px #419ad9,
             inset -20px -20px 60px #59d0ff;
 }
+
+nav h5 {
+  font-size: 0.7rem;
+}

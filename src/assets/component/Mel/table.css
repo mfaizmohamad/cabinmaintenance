@@ -1,0 +1,9 @@
+tr {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 1fr 2fr;
+  gap: 1rem;
+}
+
+.table__header {
+  color:  var(--color-primary);
+}
