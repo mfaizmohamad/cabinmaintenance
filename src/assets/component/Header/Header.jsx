@@ -3,6 +3,7 @@ import React from "react";
 import moment from "moment/moment";
 import "./Header.css";
 import CTA from "./CTA";
+import Cat from "../../../assets/cat.png"
 
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -50,6 +51,10 @@ const Header = () => {
 
       <a href="#mel" className='scroll__down'>Scroll Down</a>
       <CTA/>
+
+      <div className="image__cat">
+          <img src={Cat} alt="no image" />
+      </div>
     </header>
   );
 };
