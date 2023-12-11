@@ -75,7 +75,11 @@ table {
   }
 
   table {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
+  }
+
+  .search {
+    width: 90%;
   }
 }
 

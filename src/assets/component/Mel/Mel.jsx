@@ -7,7 +7,7 @@ import Table from "./table";
 const Mel = () => {
   const[query, setQuery] = useState("");
 
-  const keys = ["name","defect","mel","cat","interval"]
+  const keys = ["name","defect","mel","interval"]
 
   const search = (data) => {
     return data.filter(

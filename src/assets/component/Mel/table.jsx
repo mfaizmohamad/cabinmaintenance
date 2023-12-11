@@ -9,7 +9,6 @@ const Table = ({ data }) => {
           <th>Name</th>
           <th>Defect</th>
           <th>Mel</th>
-          <th>Cat</th>
           <th>Interval</th>
         </tr>
         {data.map((item) => (
@@ -17,7 +16,6 @@ const Table = ({ data }) => {
             <th>{item.name}</th>
             <th>{item.defect}</th>
             <th>{item.mel}</th>
-            <th>{item.cat}</th>
             <th>{item.interval}</th>
           </tr>
         ))}
