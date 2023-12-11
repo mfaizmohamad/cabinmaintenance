@@ -69,6 +69,29 @@ header {
 
 /* =========== MEDIA QUERIS (iphone 14 pro max)========== */
 
+@media  screen and (max-width: 600px) {
+  .container.header__container {
+    width: var(--container-width-sm);
+  }
+
+  .scroll__down {
+    position: absolute;
+    right: 0.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+
+  .image__cat {
+    width: 22rem;
+    height: 25rem;
+    margin-top: 2rem;
+}
+}
+
+/* =========== MEDIA QUERIS (iphone 14 pro max)========== */
+
 @media  screen and (max-width: 430px) {
   .container.header__container {
     width: var(--container-width-sm);
