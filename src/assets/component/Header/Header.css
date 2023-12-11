@@ -65,9 +65,11 @@ header {
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
-/* =========== MEDIA QUERIS (SMALL DEVICES)========== */
 
-@media  screen and (max-width: 600px) {
+
+/* =========== MEDIA QUERIS (iphone 14 pro max)========== */
+
+@media  screen and (max-width: 430px) {
   .container.header__container {
     width: var(--container-width-sm);
   }
@@ -80,4 +82,45 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
   }
+
+  .image__cat {
+    width: 22rem;
+    height: 25rem;
+    margin-top: 13rem;
+}
+}
+
+/* =========== MEDIA QUERIS (iphone 12 pro)========== */
+
+@media  screen and (max-width: 390px) {
+  .container.header__container {
+    width: var(--container-width-sm);
+  }
+
+  .scroll__down {
+    position: absolute;
+    right: 0.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+
+  .image__cat {
+    width: 22rem;
+    height: 25rem;
+    margin-top: 7.5rem;
+}
+}
+
+
+
+/* =========== MEDIA QUERIS (12)========== */
+
+@media  screen and (max-width: 375px) {
+  .image__cat {
+    width: 22rem;
+    height: 19rem;
+    margin-top: 3rem;
+}
 }
